@@ -1,0 +1,17 @@
+var a = 2;
+a = a - 1;
+a++;
+document.write(a);
+var b = 8;
+b += 2;
+document.write(b);
+var c = a + b * b;
+document.write(c);
+var d = a * b + b;
+document.write(d);
+var e = a * (b + b);
+document.write(e);
+var f = a * b / a;
+document.write(f);
+var g = b / a * a;
+document.write(g);
